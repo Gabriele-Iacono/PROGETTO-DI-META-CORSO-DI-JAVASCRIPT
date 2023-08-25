@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      svg {
+        filter: invert(1);
+      }
+    </style>
+    <title>X</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="h-full bg-black">
+    <main class="bg-black h-full">
+      <!-- ! wrapper contenente le 3 colonne  -->
+      <div
+        class="flex w-full md:max-w-screen-md lg:max-w-screen-lg mx-auto px-6 md:px-0 py-4 gap-6"
+      >
+        <!-- ! colonna posizionata a sinistra 25% -->
+        <div
+          class="flex flex-col gap-4 w-[80px] md:w-1/4 items-center md:items-start text-xl"
+          >
+          <div  class="flex flex-col gap-6 items-center md:items-start">
+          <img src="images/Twitter_X_1.svg" class="w-[38px]" alt="logo X" />
+          <button class="text-white font-bold flex items-center gap-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 576 512"
+            >
+              <path
+                d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"
+              />
+            </svg>
+            <span class="hidden md:block fo">Home</span>
+          </button>
+          <button class="text-white flex items-center gap-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 512 512"
+            >
+              <path
+                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+              />
+            </svg>
+            <span class="hidden md:block">Esplora</span>
+          </button>
+          <button class="text-white flex items-center gap-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 448 512"
+            >
+              <path
+                d="M224 0c-17.7 0-32 14.3-32 32V49.9C119.5 61.4 64 124.2 64 200v33.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V200c0-75.8-55.5-138.6-128-150.1V32c0-17.7-14.3-32-32-32zm0 96h8c57.4 0 104 46.6 104 104v33.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V200c0-57.4 46.6-104 104-104h8zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z"
+              />
+            </svg>
+            <span class="hidden md:block">Notifiche</span>
+            <button class="text-white flex items-center gap-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"
+                />
+              </svg>
+              <span class="hidden md:block">Messaggi</span>
+            </button>
+          </button>
+          <button class="text-white flex items-center gap-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 448 512"
+            >
+              <path
+                d="M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V384c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H384 96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"
+              />
+            </svg>
+            <span class="hidden md:block">Liste</span>
+          </button>
+          <button class="text-white flex items-center gap-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 384 512"
+            >
+              <path
+                d="M0 48C0 21.5 21.5 0 48 0l0 48V441.4l130.1-92.9c8.3-6 19.6-6 27.9 0L336 441.4V48H48V0H336c26.5 0 48 21.5 48 48V488c0 9-5 17.2-13 21.3s-17.6 3.4-24.9-1.8L192 397.5 37.9 507.5c-7.3 5.2-16.9 5.9-24.9 1.8S0 497 0 488V48z"
+              />
+            </svg>
+            <span class="hidden md:block">Segnalibri</span>
+          </button>
+          <button class="text-white flex items-center gap-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 448 512"
+            >
+              <path
+                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"
+              />
+            </svg>
+            <span class="hidden md:block">Verifica</span>
+          </button>
+          <button class="text-white flex items-center gap-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 448 512"
+            >
+              <path
+                d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"
+              />
+            </svg>
+            <span class="hidden md:block">Profilo</span>
+          </button>
+          <button class="text-white flex items-center gap-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 448 512"
+            >
+              <path
+                d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"
+              />
+            </svg>
+            <span class="hidden md:block">Altro</span>
+          </button>
+          <button
+            class="bg-[#1A8CD8] text-white rounded-full px-[72px] py-3.5 font-bold text-base hidden md:block"
+          >
+            <span class="hidden md:block">Pubblica</span>
+          </button>
+          </div>
+          <img
+            src="images/lupo.PNG"
+            alt=""
+            class="block md:hidden rounded-full w-[30px]"
+          />
+          <button
+            class="flex justify-between items-center gap-12 hidden md:block"
+          >
+            <div class="flex gap-1 items-center justify-between">
+              <img
+                src="images/lupo.PNG"
+                class="h-[30px] w-[30px] rounded-full"
+                alt="avatar"
+              />
+              <div class="text-start px-1 hidden md:block">
+                <div class="text-white">Gab</div>
+                <div class="text-gray-500">@Reidlos10</div>
+              </div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="1em"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </button>
+        </div>
+        <!-- ! colonna centrale 50% -->
+        <div class="w-full md:w-2/4 text-white border-slate-500 border-r-[1px] border-l-[1px] border-b-[1px]">
+          <!-- main div -->
+          <div class="pl-2">
+            <div>
+              <h2 class="font-bold text-lg">Home</h2>
+            </div>
+            <div class="flex justify-between text-center w-full">
+              <div class="w-1/2 text-[#707C87] font-bold">Per te</div>
+              <div class="cursor-pointer w-1/2 text-[#707C87] font-bold">Seguiti</div>
+            </div>
+          </div>
+          <!-- fine home, per te, seguiti   -->
+          <div>
+            <div class="px-3 py-5 border-slate-500 border-t-[1px] border-r-[1px] border-l-[1px]  flex gap-4 w-full">
+              <div>
+                <img
+                  src="images/lupo.PNG"
+                  alt="lupo"
+                  class="w-[40px] rounded-full"
+                />
+              </div>
+              <div class="w-full flex">
+                <input
+                  type="text"
+                  name=""
+                  id="input"
+                  placeholder="Che c'è di nuovo?"
+                  class="text-gray-500 bg-transparent w-full outline-none text-lg "
+                />
+                <div>
+                  <div>
+                    <button
+                      class="rounded-full text-white bg-blue-400 px-4 py-1"
+                      id="posta"
+                    >
+                    
+                      Pubblica
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ! Primo Post con commenti, like, rt  -->
+          <div class="px-3 border border-gray-500 gap-4 w-full " id="areaTweet">
+          
+            </div>
+        </div>
+        <!-- ! colonna di destra 25% -->
+        <div class="hidden lg:block w-1/4">
+          <input type="text" id="cerca" class="rounded-full text-white text-sm bg-[#202327] px-4 py-2" placeholder="Cerca">
+          <div class="bg-[#16181C] pl-4 ">
+            <div class="space-y-4 pb-4"> 
+              <div class="mt-6 ">
+                <h1 class="text-white font-bold text-lg">
+                  Tendenze per te
+                </h1>
+              </div>
+              <div class="text-white">
+                <p class="text-sm text-[#8B98A5]">Politica e governo · Di tendenza</p>
+                <h1 class=" font-bold">Presidente</h1>
+                <p class="text-[#8B98A5]">630.000 posts</p>
+              </div>
+              <div class="text-white">
+                <p class="text-sm text-[#8B98A5]">Politica e governo ·
+                   Di tendenza</p>
+                <h1 class=" font-bold">Putin</h1>
+                <p class="text-[#8B98A5]">630.000 posts</p>
+              </div>
+              <div class="text-white">
+                <p class="text-sm text-[#8B98A5]">Calcio · Di tendenza</p>
+                <h1 class=" font-bold">Napoli</h1>
+                <p class="text-[#8B98A5]">30.000 posts</p>
+              </div>
+              <div class="text-white">
+                <p class="text-sm text-[#8B98A5]"> Coach · Di tendenza</p>
+                <h1 class=" font-bold"> MichaelBombsDev </h1>
+                <p class="text-[#8B98A5]">10.000 posts</p>
+              </div>
+              <div class="text-white">
+                <p class="text-sm text-[#8B98A5]"> ♥ · Di tendenza</p>
+                <h1 class=" font-bold">Gabbo</h1>
+                <p class="text-[#8B98A5]">13.000 posts</p>
+              </div>
+              <div>
+                <a href="#" class="text-blue-400 ">
+                  Mostra altro                
+                </a>
+              </div>
+            </div>
+            
+          </div>
+          <div class="flex flex-wrap">
+            <div class="py-2">
+              <a href="#" class="text-sm text-[#8B98A5]">Termini di servizio</a>
+            </div>
+            <div>
+              <a href="#" class="text-sm text-[#8B98A5]">Informativa sulla privacy</a>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
